@@ -13,6 +13,7 @@
 
 <body class="bg-gray">
     <h1 class="text-center text-primary">Favourite Book</h1>
+
     <!-- Book search area -->
     <div class="input-group mb-3 w-50 mx-auto">
         <input id="search-field" type="text" class="form-control" placeholder="Search your favourite Book"
@@ -20,20 +21,19 @@
         <button onclick="searchBook()" class="btn btn-outline-secondary" type="button"
             id="button-search">Search</button>
     </div>
+
+    <!-- no search found -->
+    <div id="hide-message">
+        <p id="text-blank" class="text-center text-danger fs-1"></p>
+    </div>
+
+
     <!-- Book search result -->
     <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4">
-        <!-- <div class="col">
-            <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.</p>
-                </div>
-            </div> -->
     </div>
 
     </div>
+
 
 
 
